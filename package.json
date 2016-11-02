@@ -1,0 +1,30 @@
+{
+  "name": "ghyy",
+  "description": "Guang Huan You Yun Official Site",
+  "version": "0.0.1",
+  "contributors": [
+    "majiajun <majiajun@unitedstack.com>",
+    "Lee Yao <yaoli@unitedstack.com>"
+  ],
+  "license": "MIT",
+  "repository": "http://git.ustack.com/ustack/ghyy",
+  "keywords": [
+    "OpenStack",
+    "API",
+    "CMP"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start index.js --watch"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "helmet": "^2.3.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 5.0.0"
+  }
+}
